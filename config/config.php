@@ -33,19 +33,17 @@ $config['site']['useContenidopago'] = false;	//true show / false hide
 $config['site']['useOnebip'] = false;	//true show / false hide
 
 # Pagseguro config By IVENSPONTES
-$config['pagSeguro']['email'] = "tonyrock2013@gmail.com"; //Email Pagseguro
-$config['pagSeguro']['token'] = "19887f32-bdf6-4cf0-b17d-bfb73098aee198dbec5e44378b9e7131e08bbf77d7af8fbc-41ff-49cb-b2be-522bbae01ef2"; // TOKEN
-$config['pagSeguro']['urlRedirect'] = 'http://smallrpg.servegame.com/?subtopic=donate&action=final'; //turn off redirect and notifications in pagseguro.com.br
-$config['pagSeguro']['urlNotification'] = 'http://smallrpg.servegame.com/retpagseguro.php'; //your return location
-
-$config['pagSeguro']['productName'] = 'Premium Points';
-$config['pagSeguro']['productValue'] = 1.00; 	// 1.50 = R$ 1,50 etc...
-$config['pagSeguro']['doublePoints'] = false; 	## Double points - true is on / false is off
-
-$config['pagSeguro']['host'] = 'localhost';		## YOUR HOST
-$config['pagSeguro']['database'] = 'smallrpg';	## DATABASE
-$config['pagSeguro']['databaseUser'] = 'root';	## USER
-$config['pagSeguro']['databasePass'] = '';		## PASSWORD
+$config['pagSeguro']['email'] = "tonyrock2013@gmail.com"; // Email da conta pagseguro
+$config['pagSeguro']['token'] = "0c4e5551-ae0b-4f43-bdcc-eb244b654c7249f50df54c2a8f943d4c0c3cad3001c8f41c-9087-4e0f-afc2-6d7a697ca4b5"; // Seu TOKEN
+$config['pagSeguro']['urlRedirect'] = 'http://smallrpg.servegame.com/?subtopic=donate&action=final';
+$config['pagSeguro']['urlNotification'] = 'http://smallrpg.servegame.com/retpagseguro.php';
+$config['pagSeguro']['productName'] = 'Premium Points'; // Nome do produto que irá aparecer no pagseguro
+$config['pagSeguro']['productValue'] = 1.00; // valor de cada ponto ex.: 0.50 = R$ 0,50 / 1.50 = R$ 1,50 ....
+$config['pagSeguro']['doublePoints'] = false; // se true ativa double points / se false desativa
+$config['pagSeguro']['host'] = 'localhost'; // host banco de dados
+$config['pagSeguro']['database'] = 'smallrpg'; // nome do banco de dados
+$config['pagSeguro']['databaseUser'] = 'root'; // usuario banco de dados
+$config['pagSeguro']['databasePass'] = ''; // senha banco de dados
 
 
 # Create Character Options
