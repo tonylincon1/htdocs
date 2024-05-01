@@ -3,7 +3,7 @@
 $config['site']['serverPath'] = "D:/smallrpg/";
 $config['site']['useServerConfigCache'] = false;
 $config['site']['worlds'] = array(0 => 'Small RPG');
-$towns_list[0] = array(1 => 'Small Vile', 2 => 'Desert Vile', 3 => 'Frost Small', 4 => 'Templary Of Vip', 5 => 'Fire Of Submund');
+$towns_list[0] = array(1 => 'Small Vile', 2 => 'Desert Vile', 3 => 'Frost Small', 4 => 'Templary Of Vip', 5 => 'Fire Of Submund', 6 => 'Forest Town');
 
 $config['site']['outfit_images_url'] = '/outfit.php';
 $config['site']['item_images_url'] = 'http://item-images.ots.me/960/';
@@ -31,19 +31,6 @@ $config['site']['useDeposit'] = false;	//true show / false hide
 $config['site']['useZaypay'] = false;	//true show / false hide
 $config['site']['useContenidopago'] = false;	//true show / false hide
 $config['site']['useOnebip'] = false;	//true show / false hide
-
-# Pagseguro config By IVENSPONTES
-$config['pagSeguro']['email'] = "tonyrock2013@gmail.com"; // Email da conta pagseguro
-$config['pagSeguro']['token'] = "0c4e5551-ae0b-4f43-bdcc-eb244b654c7249f50df54c2a8f943d4c0c3cad3001c8f41c-9087-4e0f-afc2-6d7a697ca4b5"; // Seu TOKEN
-$config['pagSeguro']['urlRedirect'] = 'http://smallrpg.servegame.com/?subtopic=donate&action=final';
-$config['pagSeguro']['urlNotification'] = 'http://smallrpg.servegame.com/retpagseguro.php';
-$config['pagSeguro']['productName'] = 'Premium Points'; // Nome do produto que irá aparecer no pagseguro
-$config['pagSeguro']['productValue'] = 1.00; // valor de cada ponto ex.: 0.50 = R$ 0,50 / 1.50 = R$ 1,50 ....
-$config['pagSeguro']['doublePoints'] = false; // se true ativa double points / se false desativa
-$config['pagSeguro']['host'] = 'localhost'; // host banco de dados
-$config['pagSeguro']['database'] = 'smallrpg'; // nome do banco de dados
-$config['pagSeguro']['databaseUser'] = 'root'; // usuario banco de dados
-$config['pagSeguro']['databasePass'] = ''; // senha banco de dados
 
 
 # Create Character Options
