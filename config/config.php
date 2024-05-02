@@ -57,7 +57,7 @@ Format: number, 0 [disable] or higher
 */
 
 # PAGE: characters.php
-$config['site']['quests'] = array('Promot' => 13100,'Mastermind Quest' => 1031,'Wand and Rod Quest' => 1033,'Firewalker and Rainbow' => 1034,'Yalahari Quest' => 1036,'DH Quest' => 1035,'Dwarven Quest' => 1062,'Soft Quest' => 1056,'Inqui' => 1050,'Necro and Night Shield' => 1070,'Armors 1' => 1075,'Armors 2' => 1073,'Cobra Crown' => 1061,'Horned and Golden' => 1072,'Anihilation' => 1032,'Submund Quest' => 1083);
+$config['site']['quests'] = array('Promot' => 13100,'Mastermind Quest' => 1031,'Wand and Rod Quest' => 1033,'Firewalker and Rainbow' => 1034,'Yalahari Quest' => 1036,'DH Quest' => 1035,'Dwarven Quest' => 1062,'Soft Quest' => 1056,'Inqui' => 1050,'Necro and Night Shield' => 1070,'Armors 1' => 1075,'Armors 2' => 1073,'Cobra Crown' => 1061,'Horned and Golden' => 1072,'Anihilation' => 1032,'Submund Quest' => 1083, 'Golden Helmet' => 1076);
 $config['site']['show_skills_info'] = true;
 $config['site']['show_vip_storage'] = 13540;
 
